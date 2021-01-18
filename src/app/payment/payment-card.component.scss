@@ -1,0 +1,17 @@
+@import '../style/manifest.scss';
+
+.ng-invalid {
+  &.ng-touched {
+    border-color: $card-font-invalid-colour;
+  }
+}
+
+.ng-valid {
+  &.ng-touched {
+    border-color: $input-border-color;
+  }
+}
+
+button.add-payment-btn:disabled {
+  opacity: 0.3;
+}
