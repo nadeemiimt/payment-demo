@@ -28,14 +28,17 @@ Recommendations:
 - Use CSS or SCSS to style your component(s). Although functionality is more important, you can also
 make it look pretty.
 
-Setup: 
+- Setup: 
    Run npm install
-   Setup Json Server: 
+ - Setup Json Server: 
     npm i json-server --save
     mkdir server && cd server
     touch server/db.json
+    
 
 Once the db.json file is created then add some data in it.
+
+
 {
   "payments": [
     {
@@ -68,9 +71,14 @@ Once the db.json file is created then add some data in it.
   ]
 }
 
+
+
 After that run the following command to run the JSON server.
 json-server --watch server/db.json
 
+
 To test server: Open http://localhost:3000/payments in browser
 
-Demo Video: https://drive.google.com/file/d/1Uy4-ADRGIOup2Y-alH0oFKNZ2pIMCYup/view?usp=sharing 
+
+
+- Demo Video: https://drive.google.com/file/d/1Uy4-ADRGIOup2Y-alH0oFKNZ2pIMCYup/view?usp=sharing 
